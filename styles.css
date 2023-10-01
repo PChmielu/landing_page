@@ -125,8 +125,8 @@ a:active{
 }
 
 .quote p{
-    font-size: 32px;
-    font-weight: lighter;
+    font-size: 28px;
+    font-weight: 100;
     font-style: italic;
     color: #1f2937;
 }
