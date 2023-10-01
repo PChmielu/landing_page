@@ -136,3 +136,28 @@ a:active{
     padding-right: 10px;
     text-align: right;
 }
+
+
+/** Action bar section **/
+
+.action_content{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.action_bar{
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: column;
+}
+
+.button{
+    background-color: #3882f6;
+    color: white;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
