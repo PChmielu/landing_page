@@ -83,7 +83,7 @@ a:active{
 
 
 
-/** Main section **/
+/** Main boi section **/
 
 .main_content{
     display: flex;
@@ -112,4 +112,27 @@ a:active{
 .boxes p{
     text-align: center;
     font-size: 16px;
+}
+
+
+/** Quote section **/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+}
+
+.quote p{
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote b{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
 }
