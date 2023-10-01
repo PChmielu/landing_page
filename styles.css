@@ -1,11 +1,14 @@
-/** Header secton **/
 body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+
+/** Header secton **/
+
+
+.header_container{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
@@ -76,4 +79,37 @@ a:active{
 .header_button:active{
     border: solid 1px black;
     box-shadow: 1px 1px black;
+}
+
+
+
+/** Main section **/
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.boxes{
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxes img{
+    width: 200px;
+    height: 200px;
+    border: solid 4px #3882f6;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.boxes p{
+    text-align: center;
+    font-size: 16px;
 }
